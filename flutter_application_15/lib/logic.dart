@@ -5,7 +5,8 @@ class TodoProvider extends ChangeNotifier{
   List <String> tasks=[];
   List<bool> checkList=[];
   int index=0;
-
+  TextEditingController ctr=TextEditingController();
+  
 
 
   void add (String str ){
